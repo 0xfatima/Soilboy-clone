@@ -1,0 +1,705 @@
+@import url(https://db.onlinewebfonts.com/c/3df90868b9a2eec4a3538e88d8b3b234?family=Aktiv+Grotesk+Ex);
+@import url(https://db.onlinewebfonts.com/c/04734a8434804174e878d228103b5313?family=FSP+DEMO+-+Roc+Grotesk);:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  font-family: "Aktiv Grotesk Ex";
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.custom-link {
+  color: inherit; /* or whatever the original color is */
+  text-decoration: none; /* if you want to remove underlines */
+}
+.custom-link:hover{
+  color: inherit;
+} 
+p{
+  font-size: 0.9rem;
+}
+h2,h3,h4{
+  
+  font-weight: 350;
+}
+.custom-section {
+  padding: 4.5vh 4vw; /* Example padding */
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.custom-section-no-100vh{
+  padding: 4.5vh 4vw; /* Example padding */
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+  width: 100%; /* Full viewport width */
+  background-size: cover;
+  background-position: center;
+  
+}
+.Nav{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  height: 80px;
+  width: 90%;
+  left: 5%;
+  top: 3%;
+  padding: 0; /* Remove default padding */
+  margin: 0%;
+   /* Remove default margin */
+  z-index: 1000; 
+  transition: background-color , position 0.3s ease; /* Smooth transitions */
+  ul{
+    li:hover{
+       text-decoration: underline;
+       cursor: pointer;
+    }
+    
+  }
+  
+
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  img{
+    height: 3.5vw;
+  }
+  }
+}
+.cream-color{
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+}
+.green-color{
+  background-color: #19341e;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+}
+.fontColorClass{
+  color: white;
+}
+nav.scrolled {
+
+  width: 100%;
+  position: fixed;
+ 
+  
+}
+.pad-left{
+  margin-left: 2rem;
+}
+.pad-right{
+  margin-right: 2rem;
+}
+.nav-in{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  li{
+    button{
+    height: 2.2rem;
+    width: 7rem;
+    font-size: 1; 
+  }
+}
+
+}
+
+
+.icon{
+  font-size: 20px;
+  
+}
+.no-padding{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+
+#home{
+  background-image: url('./assets/bg.jpg');
+}
+
+.homepage-text{
+  margin-top:10rem;
+
+  h3{
+    font-size: 3vw;
+    
+  }
+  button{
+    height: 2.8rem;
+    width: 7.7rem;
+    font-size: 1rem;
+    
+  }
+}
+
+button{
+  border-radius: 100px;
+  padding: 0;
+  background-color: transparent;
+  font-family: "Aktiv Grotesk Ex";
+  color: #222222;
+}
+.featured-prod{
+  padding: 4.5vh 4vw; /* Example padding */
+  box-sizing: border-box; 
+  background-color: #FFF9F1;
+  .featured-div-1{
+    h3{
+      font-size: 2.2vw;
+    }
+    
+    button{
+      height: 2.2rem;
+      width: 5.5rem;
+    }
+  }
+  .featured-div-2{
+    display: flex;
+    flex-direction: row;
+
+      .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card-img{
+          padding: 0;
+          margin: 0;
+          width: 30vw;
+        }
+        h4{
+          padding: 0;
+          margin: 0;
+          font-size: 3.7vh;
+          font-family: "Quattrocento Sans", sans-serif;
+          font-weight: 500;
+        }
+        p{
+          padding: 0;
+          margin: 0;
+          font-size: 3vh;
+          font-family: "Quattrocento Sans", sans-serif;
+          font-weight: 500;     }
+      }
+  }
+}
+
+  .padding-pebble{
+     padding: 5rem 3.5rem;
+    .pebble-img{
+      background-image: url('./assets/soilboy_pebbles.jpg');
+      height: 85vh; /* Full viewport height */
+      width: 100%; /* Full viewport width */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      
+      display: flex;
+        flex-direction: column;
+        justify-content:end;
+        align-items: start;
+        
+      div{
+        margin: 5rem 3rem ;
+        h2{
+          font-family: "Quattrocento Sans", sans-serif;
+          font-weight: 700;
+        }
+        
+        button{
+
+          height: 8vh;
+          width: 10vw;
+          color: white;
+          border: 2px solid white; 
+          background-color: rgba(255,255,255, 0.1);
+          margin-top: 1rem;
+        }
+        button:hover{
+          background-color: white;
+          color: black;
+          cursor: pointer;
+        }
+      }
+
+    }
+  }
+
+
+.Prod{
+   .first-div{
+    img{
+      border-radius: 5px;
+    }
+   }
+  .other-products{
+    margin:0 auto;
+    padding: 4rem 0;
+    width: 80%;
+    overflow: hidden; /* Clear floats */
+
+    .left{
+      float: left;
+      width: 50%;
+    }
+    .right{
+      float: right;
+      width: 50%;
+    }
+    .image{
+      
+      img{
+        height: 100vh;
+        display: block;
+        width: auto;
+      }
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: last baseline;
+      height: 100vh; 
+      width: 30vw;
+      font-size: 4.5vh;
+      button{
+        font-family: "Quattrocento Sans", sans-serif;
+        height: 4rem;
+        width: 8.5rem;
+        font-size: 1.5vw;
+      }
+      .notButton{
+        text-decoration: underline;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.other{
+  padding: 5rem 3.5rem;
+ .other-img{
+   background-image: url('./assets/featured8.jpg');
+   height: 85vh; /* Full viewport height */
+   width: 100%; /* Full viewport width */
+
+   background-position: center;
+   color: white;
+   
+   display: flex;
+     flex-direction: column;
+     justify-content:end;
+     align-items: start;
+     
+   div{
+     margin: 4rem 3rem ;
+    font-size: 3vh;   
+    h3{
+      font-weight: 900;
+      width: 38vw;
+    }  
+     button{
+
+       height: 6vh;
+       width: 10vw;
+       color: white;
+       border: 2px solid white; 
+       background-color: rgba(255,255,255, 0.1);
+      
+     }
+     button:hover{
+       background-color: white;
+       color: black;
+       cursor: pointer;
+     }
+   }
+
+ }
+}
+
+.gallery{
+  background-color: #FFF9F1;
+  .gallery-container{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 10px; /* Adjust the gap between images */
+    column-gap: 20px;
+   
+
+      .gal-img{
+        
+   
+   img{
+    height: 40vh;
+    width: 18vw;
+    object-fit: cover; 
+   }
+      }
+  }
+}
+
+.tagline{
+     text-align: center;
+     padding-bottom: 12vh;
+     h3{
+      margin: 0;
+      padding: 18px 0px;
+     }
+}
+
+.underline{
+  text-decoration: underline ;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5vh 5vw;
+  color: white;
+  background-color: #262626;
+ h1{
+  font-size: 5vh;
+ }
+ a{
+  font-size: 1.2vw;
+  margin-top: 1vh;
+ }
+  .footerformat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .footer1{
+     form{
+      padding: 2rem 0;
+      
+      input{
+        height: 10vh;
+        width: 22vw;
+        padding-left: 2rem;
+      }
+      button{
+        font-family: "Quattrocento Sans", sans-serif;
+        height: 4rem;
+        width: 8rem;
+        font-size: 1.5vw;
+        color: white;
+        border:white solid 2px ;
+        background-color: transparent;
+        margin-left: 5px;
+        
+      }
+      button:hover{
+          background-color: white;
+          color: black;
+      }
+     }
+    }
+    .footer2{
+      display: flex;
+      flex-direction: row;
+      gap: 8vw;
+      div{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+  }
+
+  .footerformat2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6rem 0rem 2rem 0rem ; 
+       .ending{
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+       }
+  }
+  a{
+    color: #FFF9F1;
+  }
+  a:hover{
+    color: #FFF9F1;  }
+}
+
+
+
+
+
+.heading-gap-footer{
+  margin-bottom: 6vh;
+}
+
+#contact{
+  
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5f6effe2de91535318dd74a3/6ea916ef-809e-4e59-bb91-a15db2c3e246/20211209_Soilboy_workbysilo_02.jpg?format=1500w');
+  .Nav{
+    color: whitesmoke;
+  }
+
+}
+
+.no-display{
+  display: none;
+}
+
+
+.contact-form{
+background-color: #19341e;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 4vh;
+line-height: 1.5vh;
+input:hover{
+  background-color: #a6a6a6;
+}
+h1{
+  font-size: 7vh;
+  margin-bottom:12vh ;
+}
+
+.con{
+  margin-top: 12vh;
+}
+.con1{
+  .con-instagram{
+    margin-top: 5vh;
+  }
+}
+
+.con2{
+  padding-bottom:6vh ;
+  button{
+    margin: 4vh 0vh;
+    padding: 2vh;
+    width: 80px;
+    color: white;
+    border: solid 2px white;
+  }
+  button:hover{
+    background-color: whitesmoke;
+    color: #19341e;
+    
+  }
+  h3{
+    font-size: 2.8vh;
+    .req{
+      font-size: 2vh;
+      color: #b2bbb4;
+      font-weight:bold ;
+    }
+  }
+  .margin-bottom{
+    margin-bottom: 6vh;
+  }
+  .name-name-div {
+    
+    
+    .name-div{
+      display: flex;
+      flex-direction: row;
+      gap: 1vw;
+    } 
+  }
+
+}
+}
+
+.h3-no-margin{
+  margin: 0;
+}
+  
+
+.input-column-component{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  font-size: 2.2vh;
+}
+
+.input-row-component{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  font-size: 2.2vh;
+  align-items: center;
+  padding-bottom: 4vh;
+
+  input[type="radio"]{
+    accent-color: #a6a6a6;
+    cursor: pointer;
+    height:18px;
+     width:18px;
+  }
+  input[type="radio"]:hover{
+    background-color: #a6a6a6;
+  }
+  
+}
+
+.workshop-grid-container{
+  display: grid;
+  
+  
+  grid-template-columns: repeat(3,29vw);
+  padding-top: 27vh;
+  gap: 2vw;
+  background-color: #FFF9F1;
+  .workshop-items{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    h3{
+      font-family: "Schibsted Grotesk", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 3vh;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 0;
+      width: 90%;
+    }
+    img{
+      height: 85vh;
+      width: 28vw;
+    }
+  }
+  .workshop-items:hover{
+    cursor: pointer;
+  }
+   
+  
+}
+
+.description-container{
+  background-color: #FFF9F1;
+  padding-top: 26vh;
+
+  .images-div{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+.two-image{
+  display: flex;
+  flex-direction: row;
+  height: 200vh;
+  div{
+    width: 50%;
+    
+    .img{
+      width: 95%;
+    }
+    .float-left{
+      position: relative;
+      top: 30%;
+    }
+  }
+  
+}
+.image3{
+  .img2{
+    width: 30vw;
+  }
+}
+
+  }
+  .description-sub-contanier{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .details{
+      width: 50%;
+      h3{
+        width: 90%;
+      }
+      p{
+        width: 85%;
+        line-height: 4.5vh;
+      }
+      .gap{
+        padding-bottom: 30px;
+      }
+      .less-width{
+        width: 50%;
+        
+      }
+      button{
+        width: 45%;
+        height: 45px;
+        border:2px solid black;
+        font-size: 2.8vh;
+      } 
+      button:hover{
+        background-color: #19341e;
+        color: white;
+        border: none;
+      }
+    }
+    .carousel{
+      width: 50%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+
+  h3{
+    font-family: "Aktiv Grotesk Ex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 5vh;
+  }
+  h5{
+    font-family: "Aktiv Grotesk Ex", sans-serif;
+    font-size: 3.5vh;
+    font-weight: 500;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .bold-p{
+    font-family: "Aktiv Grotesk Ex Bold", sans-serif;
+    font-weight:bold;
+    padding: 0;
+    margin: 0;
+  }
+  
+}

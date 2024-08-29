@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background-color: #FFF9F1;
+  height: 100vh; /* solution for white space after footer*/
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+ .featured-prod, .padding-pebble, .Prod, .other, .gallery,.tagline{
+  background-color: #FFF9F1; /* Ensure these sections use the background color */
+  box-shadow: inset 0 0 0 100vw #FFF9F1; /* Extend the shadow to cover background color */
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: black;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+
+}
